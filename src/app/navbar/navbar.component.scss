@@ -53,6 +53,7 @@ header {
 
   .logo {
     font-weight: bold;
+    font-size: 1.5rem;
   }
 
   nav {
@@ -72,8 +73,11 @@ header {
           font-size: 1em;
 
           &:hover {
-            background: lightsalmon;
+            background: transparent;
             border-radius: 3em;
+            text-decoration: underline;
+
+
           }
         }
       }
